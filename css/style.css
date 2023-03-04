@@ -1,0 +1,35 @@
+.card{
+    cursor: pointer;
+
+}
+.item {
+    opacity: 0;
+    transition: all 1s;
+    bottom: -50%;
+}
+
+.card:hover .item {
+    bottom: 0%;
+    opacity: 1;
+}
+
+.boxcontainer {
+    background-color: rgba(0, 0, 0, 0.355);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.innerBox {
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 50%;
+    height: 500px;
+}
